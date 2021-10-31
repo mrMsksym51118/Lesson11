@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Semibold.eot');
+    src: url('fonts/subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Regular.eot');
+    src: url('fonts/subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fonts/subset-GraphikLCG-Regular.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Regular.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Regular.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Graphik LCG', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header .conteiner {
+    max-width: 1440px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: start;
+    height: 95px;
+   
+}
+.header .conteiner .image {
+    margin: 34.23px 51px 34.24px 51px;
+}
+.header .conteiner .navigation {
+    margin: 39px 0 36px 0;
+}
+.header .conteiner .navigation .list .item {
+    display: inline-block;
+    vertical-align: top;         
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+      
+}
+.header .conteiner .navigation .list .item .link {
+    text-decoration: none;
+    margin-left: 57px;
+    
+}
+
