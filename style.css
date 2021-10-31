@@ -34,7 +34,7 @@ body {
     background-color: #ffff;
     display: flex;
     justify-content: start;
-    height: 95px;
+    height: 95px;border: 1px solid black;
    
 }
 .header .conteiner .image {
@@ -52,7 +52,39 @@ body {
       
 }
 .header .conteiner .navigation .list .item .link {
-    text-decoration: none;
-    margin-left: 57px;    
+    text-decoration: none;       
+}
+.header .conteiner .navigation .list .item:nth-child(1) {
+    margin-right: 57px;
+}
+.header .conteiner .navigation .list .item:nth-child(2) {
+    margin-right: 57px;
+}
+.header .conteiner .navigation .list .item:nth-child(3) {
+    margin-right: 42px;
+}
+.header .conteiner .navigation .list .item:nth-child(4) {
+    margin-right: 49px;
+}
+.header .conteiner .button__orange {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 25px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;    
+    color: #FFFFFF;
+    background-color: #FF6336;
+    padding: 0 22px 0 21px;
+}
+.header .conteiner .button__white {
+    margin: 25px 0 25px 358px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    padding: 1px 36px 1px 36px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;    
+    color: #000000;
 }
 
