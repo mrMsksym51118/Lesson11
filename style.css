@@ -314,3 +314,170 @@ body {
     margin-top: 36px;
     text-decoration: none;
 }
+main .section .color {
+    width: 1440px;
+    background-color: #FFF8E4;    
+    margin: 0 auto;
+    margin-top: 150px;
+}
+main .section .color .title__center {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;    
+    color: #000000;
+    text-align: center;   
+ }
+ .main .section .color .top__cards .card__web__app {
+     max-width: 303px;
+     margin-top: 79px;
+ }
+ .main .section .color .top__cards .card__web__app .image {
+    display: block;
+    margin: 0 auto;
+ }
+.main .section .color .top__cards .card__web__app .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 26px;
+}
+.main .section .color .top__cards .card__web__app .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.main .section .color .top__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.main .section .color .top__cards .card__mobile__app {
+    max-width: 330px;
+    margin-top: 79px;
+}
+.main .section .color .top__cards .card__mobile__app .image {
+    display: block;
+    margin: 0 auto;
+ }
+.main .section .color .top__cards .card__mobile__app .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 21px;
+}
+.main .section .color .top__cards .card__mobile__app .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+}
+.main .section .color .top__cards .card__games {
+    max-width: 281px;
+    margin-top: 79px;
+}
+.main .section .color .top__cards .card__games .image {
+    display: block;
+    margin: 0 auto;
+ }
+.main .section .color .top__cards .card__games .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 23px;
+}
+.main .section .color .top__cards .card__games .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-top: 23px;
+}
+.main .section .color .bottom__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;    
+}
+.main .section .color .bottom__cards .card__documents {
+    max-width: 309px;
+    margin-top: 75px;
+}
+.main .section .color .bottom__cards .card__documents .image {
+    display: block;
+    margin: 0 auto;
+ }
+ .main .section .color .bottom__cards .card__documents .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 26px;
+}
+.main .section .color .bottom__cards .card__documents .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.main .section .color .bottom__cards .card__e-mails {
+    max-width: 310px;
+    margin-top: 75px;
+}
+.main .section .color .bottom__cards .card__e-mails .image {
+    display: block;
+    margin: 0 auto;
+ }
+ .main .section .color .bottom__cards .card__e-mails .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 23px;
+}
+.main .section .color .bottom__cards .card__e-mails .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-top: 23px;
+}
+.main .section .color .bottom__cards .card__iot {
+    max-width: 326px;
+    margin-top: 75px;
+}
+.main .section .color .bottom__cards .card__iot .image {
+    display: block;
+    margin: 0 auto;
+ }
+ .main .section .color .bottom__cards .card__iot .title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 23px;
+}
+.main .section .color .bottom__cards .card__iot .card__text .text {
+    max-width: 303px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin: 23px 0 172px;
+}
