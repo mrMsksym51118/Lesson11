@@ -479,5 +479,5 @@ main .section .color .title__center {
     line-height: 25px;
     color: #000000;
     text-align: center;
-    margin: 23px 0 172px;
+    margin: 23px 0 172px 0;
 }
