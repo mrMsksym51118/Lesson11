@@ -599,7 +599,7 @@ main .section .color .title__center {
 .main .section__big .box .picture {    
     margin-top: 25px;
 }
-.main .section__big .box .botton {
+.main .section__big .box .btn {
     font-weight: 600;
     font-size: 16px;
     line-height: 60px;  
@@ -607,7 +607,48 @@ main .section .color .title__center {
     color: white;
     padding: 0 20px;
     margin-top: 32px;
+    margin-bottom: 162px;
+    display: inline-block;
+    text-decoration: none;
 }
+.main .section .conteiner__last {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FF9C7D;
+}
+.main .section .conteiner__last .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.main .section .conteiner__last .box .title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    margin: 119px 328px 0 328px;
+}
+.main .section .conteiner__last .box .text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 29px;
+}
+.main .section .conteiner__last .box .btn {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;    
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 0 40px;
+    margin: 54px 0 161px 0;
+}
+
+
 
 
 
