@@ -481,3 +481,133 @@ main .section .color .title__center {
     text-align: center;
     margin: 23px 0 172px 0;
 }
+.main .section .productivity .cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start    
+}
+.main .section .productivity .subject {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 154px;    
+}
+.main .section .productivity .cards .card__first {
+    max-width: 409px;
+    margin-right: 31px;
+    margin-top: 75px;
+}
+.main .section .productivity .cards .title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000; 
+}
+.main .section .productivity .cards .text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 34px;
+}.main .section .productivity .cards .link {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #000000;   
+    margin-top: 25px;
+}
+.main .section .productivity .cards .card__second {
+    max-width: 409px;
+    margin-right: 31px;
+    margin-top: 92px;
+}
+.main .section .productivity .cards .card__third {
+    max-width: 407px;
+    margin-top: 84px;
+}
+.main .section .productivity .cards .card__second .link {
+    margin-top: 26px;
+    margin-bottom: 217px;
+}
+.main .section .productivity .cards .card__second .text {
+    margin-top: 33px;
+}
+.main .section .productivity .cards .card__first .title {
+    margin-top: 49px;
+}
+.main .section .productivity .cards .card__second .title {
+    margin-top: 67px;
+}
+.main .section .productivity .cards .card__third .title {
+    margin-top: 58px;
+}
+.main .section .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #C9E8F2;
+}
+.main .section .wrap .quote {
+    margin: 63px 0 0 75px;
+    max-width: 895px;
+}
+.main .section .wrap .pic {
+    margin: 53px 75px 105px 85px;
+}
+.main .section .wrap .quote .quote__text {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.main .section .wrap .quote .quote__text .text {
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;    
+}
+.main .section .wrapper {
+    background-color: #DABC98;   
+}
+.main .section .wrapper .cake {
+    margin: 70px 65px 84px 65px;
+}
+.main .section__big {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main .section__big .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.main .section__big .box .title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;    
+    color: #000000;
+    max-width: 791px;
+    text-align: center;
+    margin-top: 165px;
+}
+.main .section__big .box .text {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 539px;
+    text-align: center;
+}
+.main .section__big .box .picture {    
+    margin-top: 25px;
+}
+.main .section__big .box .botton {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;  
+    background-color: #FF6336;
+    color: white;
+    padding: 0 20px;
+    margin-top: 32px;
+}
+
+
+
