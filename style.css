@@ -86,7 +86,7 @@ body {
     line-height: 45px;    
     color: #000000;
     text-decoration: none;
-    transition-duration: 2s;
+    transition-duration: 2s;    
 }
 .header .conteiner .btn__white:hover {
     border: 1px solid blue;
@@ -638,9 +638,12 @@ main .section .color .title__center {
     display: inline-block;
     text-decoration: none;
     border: 1px solid #FF6336;
+    transition-duration: 2s;
 }
 .main .section__big .box .btn:hover {
-    border: 1px solid blue;
+    border: 1px solid yellow;
+    background-color: red;
+    color: black;
 }
 .main .section .conteiner__last {
     max-width: 1440px;
@@ -678,9 +681,12 @@ main .section .color .title__center {
     padding: 0 40px;
     margin: 54px 0 161px 0;
     border: 1px solid black;
+    transition-duration: 2s;
 }
 .main .section .conteiner__last .box .btn:hover {
-    border: 1px solid white;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
 }
 .footer .section {
     max-width: 1440px;
