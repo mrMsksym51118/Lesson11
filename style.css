@@ -625,6 +625,12 @@ main .section .color .title__center {
 }
 .main .section__big .box .picture {    
     margin-top: 25px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+.main .section__big .box .picture:hover {
+    background-color: palegoldenrod;
+    border: 2px solid red;
 }
 .main .section__big .box .btn {
     font-weight: 600;
@@ -755,7 +761,10 @@ main .section .color .title__center {
     line-height: 15px;
     color: #000000;
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+}
+.footer .section .right__section .cards .link:hover {
+    background-color: #FF9C7D;
 }
 .footer .section .right__section .cards .product .title {
     margin-bottom: 21px;
