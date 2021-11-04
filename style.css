@@ -86,6 +86,7 @@ body {
     line-height: 45px;    
     color: #000000;
     text-decoration: none;
+    transition-duration: 2s;
 }
 .header .conteiner .btn__white:hover {
     border: 1px solid blue;
@@ -146,13 +147,14 @@ body {
     display: inline-block;
     text-decoration: none;
     margin-top: 51px;
+    transition-duration: 2s;
 }
 .main .section .conteiner__left .btn__orange:hover {
     border: 2px solid black;
 }
 .main .section .conteiner__left .btn__white:hover {
     border: 1px solid red;
-    background-color: yellow;
+    background-color: yellow;    
 }
 .main .section .conteiner__left .conteiner__text__features .text__features {
     font-size: 15px;
@@ -165,6 +167,7 @@ body {
 }
 .main .section .conteiner__right .pic {
     border: 5px solid white;
+    transition-duration: 2s;
 }
 .main .section .conteiner__right .pic:hover {
     border: 5px solid blue;
