@@ -35,7 +35,7 @@ body {
     margin: 0 auto;
 }
 .header .conteiner .image {
-    margin: 34.23px 51px 34.24px 51px;
+    margin: 34.23px 51px 34.24px 51px;   
 }
 .header .conteiner .navigation {
     margin: 39px 0 36px 0;
@@ -89,6 +89,7 @@ body {
 }
 .header .conteiner .btn__white:hover {
     border: 1px solid blue;
+    background-color: yellow;
 }
 .header .conteiner .btn__orange:hover {
     border: 1px solid blue;
@@ -132,7 +133,7 @@ body {
     color: #FFFFFF;
     background-color: #FF6336;
     padding: 0 41px 0 42px;
-    border: 1px solid #FF6336;
+    border: 2px solid #FF6336;
 }
 .main .section .conteiner__left .btn__white {   
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -147,10 +148,11 @@ body {
     margin-top: 51px;
 }
 .main .section .conteiner__left .btn__orange:hover {
-    border: 1px solid blue;
+    border: 2px solid black;
 }
-.main .section .conteiner__left .btn__white {
-    border: 1px solid blue;
+.main .section .conteiner__left .btn__white:hover {
+    border: 1px solid red;
+    background-color: yellow;
 }
 .main .section .conteiner__left .conteiner__text__features .text__features {
     font-size: 15px;
@@ -160,6 +162,13 @@ body {
 }
 .main .section .conteiner__right {
     margin: 151px 67px 0 0;
+}
+.main .section .conteiner__right .pic {
+    border: 5px solid white;
+}
+.main .section .conteiner__right .pic:hover {
+    border: 5px solid blue;
+    background-color: whitesmoke;
 }
 .main .companies {
     background-color: #FF9C7D;
@@ -751,9 +760,8 @@ main .section .color .title__center {
 .footer .section .right__section .cards .legal .title {
     margin-bottom: 21px;
 }
-.footer .section .blok__left .img {
-    display: inline-block;
-    margin: 0 14.05px 0 75px;
+.footer .section .blok__left .img {    
+    margin: 52.23px 14.05px 0 75px;
 }
 .footer .section .blok__left .text {
     font-size: 12px;
@@ -765,11 +773,18 @@ main .section .color .title__center {
 }
 .footer .section .blok__right .list {
     margin-right: 151px;
+    margin-top: 47px;
 }
 .footer .section .blok__right .item {
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+}
+.footer .border {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightslategray;
+    margin: 0 295px 0 295px ;
 }
 
 
