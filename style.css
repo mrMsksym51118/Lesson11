@@ -63,7 +63,7 @@ body {
 .header .conteiner .navigation .list .item:nth-child(4) {
     margin-right: 49px;
 }
-.header .conteiner .button__orange {
+.header .conteiner .btn__orange {
     display: inline-block;
     vertical-align: top;
     margin: 25px 0 25px 10px;
@@ -73,8 +73,10 @@ body {
     color: #FFFFFF;
     background-color: #FF6336;
     padding: 0 22px 0 21px;
+    text-decoration: none;
+    border: 1px solid #FF6336;    
 }
-.header .conteiner .button__white {
+.header .conteiner .btn__white {
     margin: 25px 0 25px 358px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: #FFFFFF;
@@ -83,8 +85,12 @@ body {
     font-size: 16px;
     line-height: 45px;    
     color: #000000;
+    text-decoration: none;
 }
-.header .conteiner .button__white:hover {
+.header .conteiner .btn__white:hover {
+    border: 1px solid blue;
+}
+.header .conteiner .btn__orange:hover {
     border: 1px solid blue;
 }
 .main .section {
@@ -115,9 +121,10 @@ body {
 .main .section .conteiner__left .conteiner__text {
     max-width: 471px;
 }
-.main .section .conteiner__left .form .button__orange {
+.main .section .conteiner__left .btn__orange {
     display: inline-block;
     vertical-align: top;
+    text-decoration: none;
     margin: 51px 10px 0 0;
     font-weight: 600;
     font-size: 16px;
@@ -125,8 +132,9 @@ body {
     color: #FFFFFF;
     background-color: #FF6336;
     padding: 0 41px 0 42px;
+    border: 1px solid #FF6336;
 }
-.main .section .conteiner__left .form .button__white {   
+.main .section .conteiner__left .btn__white {   
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: #FFFFFF;
     padding: 0 29px 0 29px;
@@ -134,8 +142,15 @@ body {
     font-size: 16px;
     line-height: 60px;    
     color: #000000;
-    height: 60px;
+    display: inline-block;
+    text-decoration: none;
     margin-top: 51px;
+}
+.main .section .conteiner__left .btn__orange:hover {
+    border: 1px solid blue;
+}
+.main .section .conteiner__left .btn__white {
+    border: 1px solid blue;
 }
 .main .section .conteiner__left .conteiner__text__features .text__features {
     font-size: 15px;
@@ -610,6 +625,10 @@ main .section .color .title__center {
     margin-bottom: 162px;
     display: inline-block;
     text-decoration: none;
+    border: 1px solid #FF6336;
+}
+.main .section__big .box .btn:hover {
+    border: 1px solid blue;
 }
 .main .section .conteiner__last {
     max-width: 1440px;
@@ -646,9 +665,111 @@ main .section .color .title__center {
     text-decoration: none;
     padding: 0 40px;
     margin: 54px 0 161px 0;
+    border: 1px solid black;
 }
-
-
-
+.main .section .conteiner__last .box .btn:hover {
+    border: 1px solid white;
+}
+.footer .section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .section .left__section {
+    margin: 92px 0 0 75px;
+}
+.footer .section .left__section .title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.footer .section .left__section .image {
+    display: block;
+    margin: 28px 0 31px 0;
+}
+.footer .section .left__section .img {
+    display: block;
+}
+.footer .section .left__section .text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 10.96px 0 15px 0;
+    max-width: 290px;
+}
+.footer .section .left__section .link {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 95px;
+}
+.footer .section .right__section .cards {
+    display: flex;    
+}
+.footer .section .right__section .cards .legal {
+    max-width: 187px;
+    margin-left: 62px;
+    margin-right: 86px;
+}
+.footer .section .right__section .cards .company {
+    max-width: 187px;
+    margin-left: 51px;
+}
+.footer .section .right__section .cards .support {
+    max-width: 187px;
+    margin-left: 109px;
+}
+.footer .section .right__section .cards .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 97px;
+}
+.footer .section .right__section .cards .link {
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.footer .section .right__section .cards .product .title {
+    margin-bottom: 21px;
+}
+.footer .section .right__section .cards .support .title {
+    margin-bottom: 21px;
+}
+.footer .section .right__section .cards .company .title {
+    margin-bottom: 21px;
+}
+.footer .section .right__section .cards .legal .title {
+    margin-bottom: 21px;
+}
+.footer .section .blok__left .img {
+    display: inline-block;
+    margin: 0 14.05px 0 75px;
+}
+.footer .section .blok__left .text {
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;   
+    display: inline-block; 
+    max-width: 301px;
+    margin-bottom: 43px;
+}
+.footer .section .blok__right .list {
+    margin-right: 151px;
+}
+.footer .section .blok__right .item {
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
 
 
